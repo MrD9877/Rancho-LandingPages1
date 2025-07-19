@@ -46,6 +46,7 @@ export default function ContactSection() {
 
   const [state, submitAction, isPending] = useActionState(
     async (previousState: unknown, formData: FormData) => {
+      void previousState;
       const raw = Object.fromEntries(formData.entries());
       const data: Record<string, string> = Object.fromEntries(Object.entries(raw).map(([key, value]) => [key, value.toString()]));
       try {
@@ -69,7 +70,6 @@ export default function ContactSection() {
     },
     { values: {} }
   );
-
   return (
     <section id="contact" className="h-fit py-[6vh]  bg-[linear-gradient(0deg,_#393632,_#080807)] w-[89vw] mx-auto rounded-lg   contact-card -translate-y-14 font-popins text-silverMain">
       <h2 style={{ fontWeight: 700 }} className=" w-fit mx-auto text-[10vw] lg:text-[7vw] text-center text-creamBackground  scrambleLoop-animation" data-secondtext="CONTACT ME TODAY!!" data-text="LET' MAKE IT HAPPEN">
