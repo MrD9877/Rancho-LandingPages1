@@ -1,3 +1,3 @@
-![![Demo]](/gif/landingGif.gif)
-![![Demo]](/gif/discoverCard.gif)
-![![Demo]](/gif/sheepScaling.gif)
+![![Demo]](/public/gif/landingGif.gif)
+![![Demo]](/public/gif/discoverCard.gif)
+![![Demo]](/public/gif/sheepScaling.gif)
