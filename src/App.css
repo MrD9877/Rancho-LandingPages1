@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "./styles/fonts.css";
+
+:root {
+  color: black;
+  background: #efe5d7;
+  --creamBackground: #efe5d7;
+  --Zodiak-Variable: "Zodiak-Variable";
+  --CabinetGrotesk-Variable: "CabinetGrotesk-Variable";
+  --CabinetGrotesk: "CabinetGrotesk";
+  --Zodiak: "Zodiak";
+  --XHuge: 9vw;
+
+  --silverLight: #e5e7eb;
+  --silverText: #a29e9a;
+  --silverTextSecondary: #7e766c;
+  --silverMain: #d1d1c7;
+  --creamText: #6b645c;
+  --darkBackground: #393632;
+  --text-xxs-font-size: 0.6rem;
+  --text-xxs-line-height: 150%;
+  --borderColor: #393632;
+  --borderColorSecond: #bfbfb1;
+}
+
+@theme {
+  --color-creamBackground: var(--creamBackground);
+  --font-ZodiakVariable: var(--Zodiak-Variable);
+  --font-Zodiak: var(--Zodiak);
+  --font-CabinetGroteskVariable: var(--CabinetGrotesk-Variable);
+  --font-CabinetGrotesk: var(--CabinetGrotesk);
+  --text-XHuge: var(--XHuge);
+  --text-1Rem: 1rem;
+  --text-1.5Rem: 1.5rem;
+  --text-2Rem: 2rem;
+  --text-2.2Rem: 2.2rem;
+  --text-3Rem: 3rem;
+  --text-17vh: 17vh;
+  --text-17vw: 17vw;
+  --text-15vw: 15vw;
+  --font-weight-normal: 400;
+
+  --color-silverLight: var(--silverLight);
+  --color-silverTextSecondary: var(--silverTextSecondary);
+  --color-creamText: var(--creamText);
+  --color-borderColor: var(--borderColor);
+  --color-borderColorSecond: var(--borderColorSecond);
+  --color-silverText: var(--silverText);
+  --color-creamBackground: var(--creamBackground);
+  --color-silverMain: var(--silverMain);
+  --color-darkBackground: var(--darkBackground);
+  --font-popins: var(--font-popins);
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  color: black;
+  background: #efe5d7;
+  font-family: "CabinetGrotesk-Variable", "Georgia", "sans-serif";
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.shadowVideo {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+}
