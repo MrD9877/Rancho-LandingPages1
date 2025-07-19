@@ -1,1 +1,1 @@
-![![Demo]](/public/gif/discoverCard.gif)
+![![Demo]](/public/gif/discoverCards.gif)
